@@ -63,14 +63,14 @@ public class LoginTest {
     }
 
     // Edge Cases
-     @Test
+    @Test
     public void loginWithEmptyUsername() {
-         loginPage.enterUsername("");
-         loginPage.enterPassword("secret_sauce");
-         loginPage.clickLoginButton();
-         Assert.assertEquals(loginPage.getErrorMessage(), "Epic sadface: Username is required");
+        loginPage.enterUsername("");
+        loginPage.enterPassword("secret_sauce");
+        loginPage.clickLoginButton();
+        Assert.assertEquals(loginPage.getErrorMessage(), "Epic sadface: Username is required");
 
-     }
+    }
 
     @Test
     public void loginWithEmptyPassword() {
