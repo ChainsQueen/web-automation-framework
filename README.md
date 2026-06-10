@@ -166,3 +166,5 @@ mvn test -Dtest=LoginTest#loginWithValidCredentials
 **DRY (Don't Repeat Yourself)** — Browser setup and teardown are centralised in `@BeforeMethod` and `@AfterMethod`. No duplication across tests.
 
 **Explicit test naming** — Test method names describe exactly what is being tested, making failures immediately understandable without reading the code.
+
+**Explicit waits** — `WebDriverWait` with `ExpectedConditions` is used in `LoginPage` for element visibility checks. Tests wait only as long as needed — up to a maximum of 10 seconds. A `Thread.sleep()` is intentionally kept in `tearDown()` for browser observation during development — this would be removed in a CI-only environment.
