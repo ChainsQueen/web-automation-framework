@@ -8,7 +8,7 @@
 [![Selenium](https://img.shields.io/badge/Selenium-4.36.0-43B02A?style=flat-square&logo=selenium)](https://www.selenium.dev/)
 [![TestNG](https://img.shields.io/badge/TestNG-7.10.2-red?style=flat-square)](https://testng.org/)
 [![Maven](https://img.shields.io/badge/Maven-3.9-C71A36?style=flat-square&logo=apachemaven)](https://maven.apache.org/)
-[![CI](https://github.com/YOUR_USERNAME/web-automation-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/web-automation-framework/actions)
+[![CI](https://github.com/ChainsQueen/web-automation-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/ChainsQueen/web-automation-framework/actions)
 
 </div>
 
